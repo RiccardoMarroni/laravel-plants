@@ -3,7 +3,8 @@
 @section('title', 'Home')
 
 @section('content')
-<main>
+<main class="mainHome">
+    <div class="container">
     <h1>Plants</h1>
     <h2>Fagaceae</h2>
     <div class="d-flex flex-wrap ms-3 me-3">
@@ -35,7 +36,7 @@
             @endif
         @endforeach
     </div>
-    </div>
+    
     <h2>Rosaceae</h2>
     <div class="d-flex flex-wrap ms-3 me-3">
         @foreach ($plants as $plant)
@@ -81,7 +82,7 @@
             @endif
         @endforeach
     </div>
-
+    
 
 
     {{-- <ul>
@@ -97,7 +98,7 @@
         <li>{{ $plant->place_spotted }}</li>
         <li>{{ $plant->notes }}</li>
     </ul> --}}
-
+    </div>
 </main>
 
 @endsection
