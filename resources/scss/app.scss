@@ -9,6 +9,27 @@ $fa-font-path: "../webfonts" !default;
 
 @import '~bootstrap/scss/bootstrap';
 
-h1 {
-    color: $text-color;
+header {
+    margin-bottom: 30px;
+    nav {
+        div.container-fluid {
+            background-color: #204E4A;
+            a {
+                color: white;
+            }
+    }
+}
+}
+
+footer {
+    padding: 20px 0;
+    margin-top: 30px;
+    background-color: #204E4A;
+    div {
+        ul {
+            a {
+                color: white;
+            }
+        }
+    }
 }

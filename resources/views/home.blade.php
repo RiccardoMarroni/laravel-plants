@@ -4,8 +4,41 @@
 
 @section('content')
 <main>
-    <h1>Plants</h1>
-    <div class="d-flex flex-wrap ms-3 me-3">
+    <div id="hero">
+        <img src="https://www.levissima.it/sites/site.prod1.levissima.it/files/inline-images/1000x667.jpg" alt="bosco">
+    </div>
+</main>
+
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <h1>Plants</h1>
+    <div class="d-flex flex-wrap ms-3 me-3 container">
         @foreach ($plants as $plant)
         <div class="card" style="width: 18rem;">
             <img src="{{ $plant-> img }}" class="card-img-top" alt="{{ $plant-> common_name }}">
@@ -16,25 +49,4 @@
             </div>
         </div>
         @endforeach
-    </div>
-
-
-
-
-    {{-- <ul>
-        <li>{{ $plant-> class }}</li>
-        <li>{{ $plant-> species }}</li>
-        <li>{{ $plant-> width }}</li>
-        <li>{{ $plant-> height }}</li>
-        <li>{{ $plant-> habitat }}</li>
-        <li>{{ $plant-> leaf_type }}</li>
-        <li>{{ $plant-> leaf_color }}</li>
-        <li>{{ $plant-> flower_color }}</li>
-        <li>{{ $plant-> date_spotted }}</li>
-        <li>{{ $plant-> place_spotted }}</li>
-        <li>{{ $plant-> notes }}</li>
-    </ul> --}}
-
-</main>
-
-@endsection
+    </div> -->
