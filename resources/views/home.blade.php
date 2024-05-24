@@ -7,7 +7,7 @@
     <div class="container">
     <h1>Plants</h1>
     <h2>Fagaceae</h2>
-    <div class="d-flex flex-wrap ms-3 me-3 gap-3 ">
+    <div class="d-flex flex-wrap ms-3 me-3 gap-5">
         @foreach ($plants as $plant)
             @if($plant->family == 'Fagaceae')
                 <div class="card" style="width: 18rem;">
