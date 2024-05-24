@@ -7,7 +7,7 @@
     <div class="container">
     <h1>Plants</h1>
     <h2>Fagaceae</h2>
-    <div class="d-flex flex-wrap ms-3 me-3">
+    <div class="d-flex flex-wrap ms-3 me-3 gap-5">
         @foreach ($plants as $plant)
             @if($plant->family == 'Fagaceae')
                 <div class="card" style="width: 18rem;">
@@ -22,7 +22,7 @@
         @endforeach
     </div>
     <h2>Betulaceae</h2>
-    <div class="d-flex flex-wrap ms-3 me-3">
+    <div class="d-flex flex-wrap ms-3 me-3 gap-3">
         @foreach ($plants as $plant)
             @if($plant->family == 'Betulaceae')
                 <div class="card" style="width: 18rem;">
@@ -38,7 +38,7 @@
     </div>
     
     <h2>Rosaceae</h2>
-    <div class="d-flex flex-wrap ms-3 me-3">
+    <div class="d-flex flex-wrap ms-3 me-3 gap-3">
         @foreach ($plants as $plant)
             @if($plant->family == 'Rosaceae')
                 <div class="card" style="width: 18rem;">
@@ -53,7 +53,7 @@
         @endforeach
     </div>
     <h2>Cupressaceae</h2>
-    <div class="d-flex flex-wrap ms-3 me-3">
+    <div class="d-flex flex-wrap ms-3 me-3 gap-3">
         @foreach ($plants as $plant)
             @if($plant->family == 'Cupressaceae')
                 <div class="card" style="width: 18rem;">
@@ -68,7 +68,7 @@
         @endforeach
     </div>
     <h2>Aquifoliaceae</h2>
-    <div class="d-flex flex-wrap ms-3 me-3">
+    <div class="d-flex flex-wrap ms-3 me-3 gap-3">
         @foreach ($plants as $plant)
             @if($plant->family == 'Aquifoliaceae')
                 <div class="card" style="width: 18rem;">
