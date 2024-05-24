@@ -14,4 +14,6 @@ use App\Http\Controllers\PlantController;
 |
 */
 
-Route::get('/', [PlantController::class,'index'])->name('home');
+Route::get('/', [PlantController::class,'indexHome'])->name('home');
+Route::get('/plants', [PlantController::class,'index'])->name('plants.index');
+Route::get('/plants/{id}', [PlantController::class,'show'])->name('plants.show');
