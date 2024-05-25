@@ -3,15 +3,21 @@
 @section('title', 'Home')
 
 @section('content')
-<main>
+<main style=" background-image: url({{ $plantDetail-> img }}); background-repeat: no-repeat; background-size: cover;">
     <h1>Plants</h1>
+    <div class="container plantShow">
    
-       <div>
+       <p class="details">
         {{ $plantDetail-> common_name }}
-       </div>
-       
+       </p>
+       <p class="details">
+       {{ $plantDetail-> scientific_name }}
+       </p>
+       <p class="details">
+       {{ $plantDetail-> notes }}
+       </p>
         
-  
+       </div>
 
 
 

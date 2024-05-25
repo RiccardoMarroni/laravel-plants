@@ -13,6 +13,18 @@ h1 {
     color: $text-color;
 }
 
-.mainHome {
-    background-color: #548687;
+.bg {
+    background-image: url(../../public/bg.jpg);
+    background-position: bottom;
+}
+
+.plantShow {
+    background-color:rgba(255, 254, 254, 0.39);
+
+    height: 100vh;
+}
+
+.details {
+    color: white;
+    font-weight: 600;
 }
