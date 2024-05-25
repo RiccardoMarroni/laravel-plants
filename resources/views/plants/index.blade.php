@@ -3,9 +3,10 @@
 @section('title', 'Home')
 
 @section('content')
-<main>
+<main class="bg">
+    <div class="container">
     <h1>Plants</h1>
-    <div class="d-flex flex-wrap ms-3 me-3">
+    <div class="d-flex flex-wrap ms-3 me-3 gap-3 ">
         @foreach ($plants as $plant)
         <div class="card" style="width: 18rem;">
             <img src="{{ $plant-> img }}" class="card-img-top" alt="{{ $plant-> common_name }}">
@@ -17,7 +18,7 @@
         </div>
         @endforeach
     </div>
-
+    </div>
 
 
 
